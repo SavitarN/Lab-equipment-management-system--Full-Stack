@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Zen+Antique&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.nav {
+  height: 87px;
+  width: 100vw;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+}
+/* .nav_img{
+z-index: 0;
+} */
+.logo {
+  height: 67px;
+  width: 167px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 0px 11px;
+}
+/* serach bar  */
+.searchbox {
+  position: absolute;
+  top: 6%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  background: wheat;
+}
+.searchbox:hover > .search_bar {
+  width: 250px;
+  padding: 0px 6px;
+}
+.searchbtn {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_bar {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  color: white;
+  font-size: 14px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+/*
+  .nav2{
+    height: 42px;
+    width:100vw;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    margin: 1px 0px;
+    border-radius: 60px ;
+   
+}
+*/
+
+.nav2 li {
+  float: left;
+  list-style-type: none;
+}
+.nav2 li a {
+  text-decoration: none;
+  padding: 2px 40px;
+  color: black;
+}
+.parrent {
+  height: 100px;
+  width: 100vw;
+  background-color: red;
+}
+.child {
+  height: 50%;
+  width: 50%;
+}
+
+.big_moto {
+  font-family: "Tai Heritage Pro", serif;
+
+  padding: 1px 22px;
+}
+.img {
+  height: 187px;
+  width: 403px;
+  border: 1px solid;
+  border-radius: 9px;
+}
+
+.small_moto {
+  font-family: "Ms Madi", cursive;
+  padding: 0px 6px;
+}
+.container {
+  display: flex;
+  height: 267px;
+}
+.personaldev {
+  height: 167px;
+  margin: 60px 68px;
+  background-color: wheat;
+  border-radius: 13px;
+  width: 538px;
+}
+
+.program {
+  height: 167px;
+  margin: 60px 68px;
+  background-color: wheat;
+
+  border-radius: 13px;
+  width: 538px;
+}
+.content {
+  padding: 1px 22px;
+}
+.btn {
+  height: 32px;
+  width: 100px;
+  margin: 23px 19px;
+  background-color: skyblue;
+  padding: 2px 9px;
+  border-radius: 7px;
+  /* font-family: font-family:'Radio Canada', sans-serif; */
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+/* yo container vetra sabbai image haru xa yoga,meditation etc */
+.container_img {
+  height: 548px;
+  width: auto;
+  background-color: skyblue;
+  margin: 14px auto;
+}
+/* first row ko image ko lagi */
+.first {
+  display: flex;
+  justify-content: center;
+}
+.image_edit1 {
+  height: 261px;
+  width: auto;
+  padding: 20px 12px;
+  transition: transform 2s;
+}
+.image_edit2 {
+  height: 261px;
+  width: auto;
+  padding: 20px 12px;
+  transition: transform 2s;
+}
+.image_edit3 {
+  height: 261px;
+  width: 400px;
+  padding: 20px 12px;
+  transition: transform 2s;
+}
+/* second row ko image ko lagi */
+.second {
+  display: flex;
+  justify-content: center;
+}
+.image_edit4 {
+  height: 218px;
+  width: 400px;
+  padding: 2px 12px;
+  transition: transform 2s;
+}
+
+.first :hover .image_edit1 {
+  /*image.edit1 ko transform scale eta xa */
+  transform: scale(1.3);
+}
+
+.first :hover .image_edit2 {
+  transform: scale(1.3);
+}
+
+.first :hover .image_edit3 {
+  transform: scale(1.3);
+}
+
+.second :hover .image_edit4 {
+  transform: scale(1.3);
+}
+.secondmiddle {
+  color: black;
+
+  /* height: 400px;  */
+
+  display: flex;
+
+  /* flex-direction: row-reverse; */
+
+  align-items: center;
+
+  justify-content: center;
+
+  max-width: 1100px;
+
+  margin: auto;
+
+  font-family: "Ubuntu", sans-serif;
+}
+.imgpic {
+  border: 1px;
+  border-radius: 18px;
+}
+.bigtext {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.secondleft {
+  color: black;
+
+  /* height: 400px;  */
+
+  display: flex;
+
+  flex-direction: row-reverse;
+
+  align-items: center;
+
+  justify-content: center;
+
+  max-width: 1100px;
+
+  margin: auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+footer {
+  background-color: skyblue;
+  height: auto;
+  width: 100vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 129px;
+}
+.firstcontent {
+  color: black;
+}
+.secondcontent {
+  color: black;
+  margin: 7px 11px;
+}
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social li a {
+  margin: 1px 19px;
+  color: black;
+  transition: color 0.4s ease;
+}
+.social a:hover {
+  color: white;
+}
+
+.copyright {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.copyright span {
+  text-transform: uppercase;
+  opacity: 0.4;
+}
